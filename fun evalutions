@@ -1,0 +1,7 @@
+def info(**kwargs):
+    print("values:", kwargs.values())
+    print("--------------")
+    for value in kwargs.items():
+        print(value)
+
+info(name='priya', age=20, cgpa= 8.3)
